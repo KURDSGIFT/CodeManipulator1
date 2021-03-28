@@ -1,50 +1,11 @@
-import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
-import requests
-
-
-def chk():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  print("\x1b[37;1mYour ID : "+id)
-  try:
-    httpCaht = requests.get("https://raw.githubusercontent.com/4REZ/Active.txt/main/Active.txt").text
-    if id in httpCaht:
-      print("\033[92mYOUR ID IS ACTIVE.........")
-      msg = str(os.geteuid())
-      time.sleep(1)
-      pass
-    else:
-      print("\x1b[91mbo eshkrdn ba tool yan bo id ACTIVE krdn nama bnera bo @CodeManipulator ")
-      time.sleep(1)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__':
-     print(logo)
-     chk()
-   
-chk()
-
-
-
-
-
-
-os.system('rm -rf .txt')
-for n in range(5000):
-    nmbr = random.randint(1111111, 9999999)
-    sys.stdout = open('.txt', 'a')
-    print nmbr
-    sys.stdout.flush()
-
-try:
-    import requests
+import os, 
+    import 
 except ImportError:
-    os.system('No Module Named Requests! type:pip2 install requests')
+    os.system('No Module  Requests! type:pip2 install requests')
 
 try:
     import mechanize
-except ImportError:
+ ImportError:
     os.system('No Module Named Mechanize! type:pip2 install mechanize')
     time.sleep(1)
     os.system('Then type: python2 fbi.py')
@@ -55,9 +16,9 @@ from requests.exceptions import ConnectionError
 from mechanize import Browser
 reload(sys)
 sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
+br = 
 br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+, max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
@@ -1113,20 +1074,15 @@ def contact():
     time.slep(0.05)
     print("\033[1;97m[3]\033[1;91m\033[1;93mTELEGRAM CHANEL")
     time.slep(0.05)
-    print("\033[1;97m--------------------------------------------------")
+    
     contact_info()
 def contact_info():
     info = raw_input("\n")
     if info =="1":
-        os.system("xdg-open https://t.me/KURDGIFT")
-    elif info =="2":
-        os.system("xdg-open https://t.me/KURDGIFT")
+        os.("xdg-open https://t.me/KURDGIFT")
+    elif info ":
+        os.system("xdg-open https://t.me/KURDGIFT"
     elif info =="3":
         os.system("xdg-open https://t.me/KURDSGIFTGROUP")
     else:
-        print("[!] TKAYA YAKEK HALBZERA")
-        contact_info()
-	
-if __name__ == '__main__':
-    tech_abm()        
-#### Coded Bye ab(KURDGIFT) m(UP)
+        print("[!] TKAYA YAKEK HALBZERA
